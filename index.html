@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>¿Quieres ser mi novia?</title>
+<link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <!-- Video de fondo -->
+    <video loop id="backgroundVideo">
+        <source src="love.mp4" type="video/mp4">
+        Tu navegador no soporta la reproducción de videos.
+    </video>
+
+    <!-- Botón para reproducir con sonido -->
+    <button id="playButton">🎵 Reproducir con sonido</button>
+
+    <!-- Contenido principal -->
+    <div class="container">
+        <h1>Hola, <span id="name"></span></h1>
+        <p>He estado esperando este momento para pedirte algo muy importante para mi...</p>
+        <h2>¿Quieres ser mi novia?</h2>
+
+        <div class="buttons">
+            <button id="yesButton">Sí 💖</button>
+            <button id="noButton">No 🙁</button>
+        </div>
+
+        <div id="message" class="hidden">
+            <h2>¡Gracias por aceptar! 🥰</h2>
+            <p>¡Me haces el hombre más feliz del mundo te quiero mucho mi niña!</p>
+        </div>
+
+        <div id="noMessage" class="hidden">
+            <h2>Pueeeees 😢</h2>
+            <p>Vete alv entonces</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
+
